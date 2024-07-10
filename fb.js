@@ -1,8 +1,8 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 
-//Script By Keito Klein
-exports.fb = async(url) => {
+//Script By Taufik Qillah
+const fb = async(url) => {
     const header = {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
       'Origin': 'https://getmyfb.com',
